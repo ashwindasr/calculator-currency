@@ -1,6 +1,6 @@
 # Calculator Currency
 
-An modified version of the iOS calculator that has a currency convert feature.
+A modified version of the iOS calculator that has a currency convert feature.
 
 ## Features
 - Basic math operations
