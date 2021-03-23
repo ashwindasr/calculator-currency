@@ -95,6 +95,12 @@ class CalculatorModel: CurrencyModel, ObservableObject {
         self.dotFlag = true
     }
     
+    func getFontSize() -> Int {
+       
+        let subtractValue = max(self.displayedNumber.count - 6, 0) * 7
+        return 80 - subtractValue
+    }
+    
     func getDotFlag() -> Bool {
         //
         // Function that returns the value of the private variable dotFlag

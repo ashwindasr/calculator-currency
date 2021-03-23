@@ -32,8 +32,8 @@ struct IndexView: View {
                     Spacer()
                     
                     // Display text
-                    Text(String(model.displayedNumber))
-                            .font(.system(size: 80))
+                    Text(model.displayedNumber)
+                        .font(.system(size: CGFloat(model.getFontSize())))
                             .fontWeight(.light)
                             .lineLimit(1)
                 }
